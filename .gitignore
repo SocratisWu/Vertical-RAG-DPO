@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# 忽略 Python 虚拟环境
+envs/
+__pycache__/
+*.pyc
+
+# 忽略模型权重文件
+model_weights/
+models/
+qwen_dpo_lora_weights/
+qwen-dpo-results/
+unsloth_compiled_cache/
+
+# 忽略海量原始数据和索引文件
+data/
+*.bin
+*.jsonl
+*.txt
+
+# 忽略日志和缓存
+*.log
+.cache/
+>>>>>>> 5fbec08 (feat: 首次提交 RAG+DPO 抗幻觉问答系统，集成混合检索与性能监控)
